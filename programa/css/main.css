@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{ 
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #111;
+}
+.osnova_block{
+    height: 115vh;
+    background-image: url(../img/early-evening-vast-contemporary-modern-wood-concrete-home\ 1.png);
+    background-size: cover;
+}
+.menu_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 142px;
+    position: absolute;
+}
+.block_menu{
+    text-align: center;
+}
+.dreamhouse{
+    font-size: 40px;
+    color: #fff;
+}
+.title{
+    color: #fff;
+    letter-spacing: 3px;
+}
+.menu{
+    display: flex;
+    margin: 0 120px 0 120px;
+}
+.a_menu{
+    margin: 0 40px 0 40px;
+}
+.aphone{
+    display: flex;
+    align-items: center;
+}
+.nomer{
+    text-align: center;
+    margin-left: 10px;
+}
+.h3_moner{
+    color: #fff;
+}
+.a_dsvinok{
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+    font-weight: 400;
+}
+.ic_phone{
+    background-color: #fff;
+    width: 48px;
+    height: 44px;
+    margin-bottom: -8px;
+    border-radius: 5px;
+}
+.glava{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    display: block;
+}
+.glava h1{
+    font-size: 90px;
+    letter-spacing: 20px;
+    color: #fff;
+}
+.glava p{
+    font-size: 23px;
+    transform: translateY(15px);
+    margin-bottom: 170px;
+    color: #fff;
+}
+.glava a{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #111;
+    letter-spacing: 2px;
+    margin-bottom: -50px;
+}
+.img_a_gklava{
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+/* ------------------------------------------------------ */
+main{
+    height: 100%;
+}
+.main{
+    text-align: center;
+}
+.h1_main_title{
+    font-size: 50px;
+    color: #111;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div_a_title{
+    display: flex;
+    justify-content: center;
+}
+.a_main_title{
+    padding: 15px 30px;
+    color: #111;
+    background-color: rgb(237, 235, 235);
+    margin: 0 8px 0 8px;
+    border-radius: 5px;
+}
+/* -------------------------------------------------------------------- */
+.block_foto_main{
+    margin: 50px 0 0 0;
+}
+.foto_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4px;
+}
+.text_foto1_main:nth-child(2){
+    transform: translateX(-330px);
+}
+.text_foto1_main:nth-child(1){
+    transform: translateX(330px);
+}
+.text_foto1_main h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.text_foto1_main p{
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+}
+.text_foto1_main h3, p{
+    color: #111;
+}
+.img_foto1{
+    width: 960px;
+    height: 707px;
+}
+/* --------------------------------- --------------------------*/
+.residense{
+    height: 137vh;
+    margin-top: 135px;
+    margin-bottom: 192px;
+}
+.residense_title{
+    width: 656px;
+    height: 185px;
+    text-align: center;
+    transform: translateX(625px);
+}
+.residense_title h1{
+    color: #111;
+    font-size: 73px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title_block{
+    display: flex;
+}
+.title_block p{
+    font-family: Bold;
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+.title_block p:nth-child(1){
+    width: 328px;
+    height: 50px;
+    background-color: rgba(58, 58, 58, 1);
+    border-radius: 5px;
+    color: #fff;
+    align-content: center;
+}
+.title_block p:nth-child(2){
+    width: 328px;
+    height: 50px;
+    background-color: rgba(237, 235, 235, 1);
+    border-radius: 5px;
+    color: #111;
+    align-content: center;
+}
+/* ---------------- -------------------------------*/
+.block_flex_residemt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+.residense_block_img{
+    width: 563px;
+    height: 767px;
+    border: 1px solid #111;
+    text-align: center;
+}
+.img_resident{
+    width: 100%;
+}
+.text_zena{
+    width: 250px;
+    height: 189px;
+    transform: translate(160px, 71px);
+}
+.text_h4{
+    font-size: 30px;
+}
+.text_bloc_p{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0 28px 0;
+}
+.text_p{
+    width: 122px;
+    height: 41px;
+    background-color: rgba(233, 237, 239, 1);
+    font-size: 12px;
+    align-content: center;;
+}
+.button_text{
+    width: 100%;
+    height: 60px;
+    border-radius: 7px;
+    background-color: rgba(54, 70, 81, 1);
+    font-size: 20px;
+    color: #fff;
+}
+/*--------------------------------------------*/
+.gallery_foto{
+    margin-top: 123px;
+}
+.foto_gallerery{
+    width: 477px;
+    height: 387px;
+}
+/* --------------------------------------------- */
+.proect_developer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 177px;
+    margin-bottom: 202px;
+}
+.h1_developer{
+    font-size: 64px;
+}
+.p_developer{
+    font-size: 24px;
+    margin: 60px 0 60px 0;
+}
+.p_developer_flex{
+    display: flex;
+    justify-content: space-around;
+}
+.p_flex_text{
+    font-size: 32px;
+}
+/* ---------------------------------------------- */
+.footer{
+    height: 877px;
+    background-image: url(../img/futer.jpg);
+}
+/* ----------------------------------------------- */
+.input_question{
+    border-bottom: 2px solid #111;
+}
