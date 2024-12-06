@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+    font-family: "Jost", ital;
+}
+
+a {
+    color: #111;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.img_title {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    z-index: 2;
+}
+
+.ul_menu {
+    display: flex;
+}
+
+.li_menu {
+    padding: 15px;
+    background-color: #001a4d;
+    color: #fff;
+}
+
+.li_menu:hover {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #111;
+}
+.main {
+    width: 100%;
+    height: 130vh;
+    z-index: 1;
+}
+
+.foto_main {
+    width: 115vh;
+    height: 115vh;
+    margin-top: -115px;
+}
+
+.main_foto_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.main_h1 {
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+@media screen and (max-width: 1011px) {
+    .main_h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 70px;
+    }
+}
+.button_main {
+    padding: 10px 40px;
+    border: 1px solid #111;
+    font-size: 20px;
+    color: #fff;
+    background-color: #001a4d;
+}
+
+.button_main:hover {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #111;
+}
+.burger{
+    width: 50px;
+    height: 2px;
+    background-color: #111;
+}
+.burger::after
+.burger::before{
+    content:'';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+}
+.burger::after{
+    transform: translateY(-20px);
+}
+.burger::before{
+    transform: translateY(20px);
+}
+/*---------------------------------*/
+mainn{
+    width: 100%;
+}
+.kitchen{
+    width: 100%;
+     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_kitchen{
+    width: 80vh;
+    height: 80vh;
+    padding-left: 20px;
+}
+.kictchen_title{
+    margin-right: 200px;
+}
+.kitchen_paragraf{
+    margin: 40px 0 40px 0;
+}
+.button_kitchen{
+    padding: 10px 35px;
+    background-color: #001a4d;
+    color: #fff;
+}
+.button_kitchen:hover{
+    border:1px solid #111;
+    background-color:#fff;
+    color:#111;
+}
+/*---------------------------*/
+.about_main{
+    width:100%;
+    height: 85vh;
+}
+.about_title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.about_block_text{
+    display: flex;
+    justify-content: space-around;
+}
+.abous_text_about{
+    width: 60vh;
+    height: 55vh;
+    border: 2px solid #111;
+    border-radius: 20px;
+}
+.abous_text_about .about_h3{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.abous_text_about .about_p{
+    padding: 0 10px 0 10px;
+}
+/*----------Services---------------*/
+.services{
+    height: 100vh;
+}
+.services_title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.services_foto_text{
+    display: flex;
+    justify-content: space-around;
+}
+.services_foto{
+    width: 60vh;
+    height: 70vh;
+    background-image: url('../img/%D0%92%D0%B0%D0%BD%D0%B0.jpg');
+    background-size: cover;
+    text-align: center;
+}
+.services_foto .services_p{
+    font-size: 30px;
+    color: #111;
+    margin-top: 30vh;
+    margin-bottom: 20px;
+}
+.services_foto .services_p{
+    transform: translateX(-5px);
+    opacity: 0
+}
+.services_foto:hover > .services_p{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.services_foto .services_bottom{
+   opacity: 0
+}
+.services_foto:hover > .services_bottom{
+    opacity: 1;
+}
+.services_bottom{
+    padding: 10px 35px;
+    background-color: #001a4d;
+    color: #fff;
+}
+.services_bottom:hover{
+    border: 1px solid #111;
+    background-color: #fff;
+    color: #111;
+}
+.services_foto:nth-child(2){
+    background-image: url('../img/%D0%9A%D1%83%D1%85%D0%BD%D1%8F.jpg');
+}
+.services_foto:nth-child(3){
+    background-image: url('../img/%D1%96%D0%BD%D1%82%D0%B5%D1%80%D1%94%D1%80.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
