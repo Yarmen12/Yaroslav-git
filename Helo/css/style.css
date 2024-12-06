@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.heder {
+    width: 100%;
+}
+
+.img_logo_title {
+    width: 130px;
+    height: 100px;
+}
+
+.div_header_menu {
+    width: 100%;
+}
+
+.div_header_padding {
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_header_burger {
+    display: flex;
+}
+
+.ul_header {
+    display: inline-flex;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.li_heder_burger {
+    margin: 10px 20px 10px 10px;
+}
+
+.li_heder_burger:hover > .div_palca {
+    width: 100%;
+}
+
+.a:hover {
+    color: red;
+}
+
+.div_palca {
+    width: 0px;
+    height: 2px;
+    background-color: #111;
+    transition: all 0.3s ease 0s;
+}
+
+#li:hover > .ul_li_berger {
+    display: block;
+}
+
+.ul_li_berger {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    color: #111;
+    box-shadow: 0 0 5px 0 #111;
+    z-index: 99999;
+    text-align: center;
+
+}
+
+.li_burger_li {
+    padding: 5px;
+}
+
+.span_header_burger {
+    display: flex;
+}
+
+.img_icons {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.div_heder_icons {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    color: #fff
+}
+
+/*-----------------------------*/
+.div_header_foto_text {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+
+.div_foto_text {
+    width: 50%;
+    height: 85vh;
+    background-image: url('../img/SL_092920_35860_16.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.div_block_text {
+    margin-left: 60px;
+}
+
+.h1_text {
+    margin-top: 60px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.p_text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.a_button {
+    color: #fff;
+    padding: 20px 30px 20px 30px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.a_button:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+.div_foto {
+    width: 50%;
+    background-image: url(../img/bmw.jpg);
+    background-size: cover;
+}
+
+.div_block_blec {
+    width: 100%;
+    height: 85vh;
+    background-color: #111;
+    opacity: 0.8;
+}
+
+.div_block_info {
+    width: 350px;
+    height: 25vh;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 450px;
+    right: 70px;
+}
+
+.div_icons_text {
+    display: flex;
+    margin-left: 30px;
+    color: #fff;
+    margin-top: 35px;
+}
+
+.img_img_icons_text {
+    margin-right: 20px;
+}
+
+/*--------------------------*/
+
+main {
+    width: 100%;
+}
+
+.div_abous_foto {
+    width: 370px;
+    height: 450px;
+}
+
+.div_block_foto_text {
+    width: 170px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    margin-top: -150px;
+    margin-left: -30px;
+    color: #fff;
+}
+
+.div_block_foto_text > h5 {
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.h1_abous {
+    margin-top: 15px;
+    font-size: 60px;
+}
+
+.div_block_foto {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/");
+    border: 4px solid #111;
+}
+
+.div_main_abous {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_abous_text_button {
+    width: 360px;
+}
+
+.p_abous {
+    color: red;
+    font-weight: 700;
+}
+
+.h1_abous_text {
+    margin-bottom: 20px;
+}
+
+.p_abous_text {
+    margin-bottom: 20px;
+    font-weight: 600;
+    opacity: 0.4;
+    letter-spacing: 0.8px;
+}
+
+.button_abous {
+    width: 155px;
+    color: red;
+    padding: 20px 30px 20px 30px;
+    border: 2px solid red;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    display: block;
+}
+
+.button_abous:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/*---------------------------*/
+.div_block_auto_parts_text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    height: 100vh;
+}
+
+.div_auto_parts_text {
+    width: 27%;
+}
+.p_pauto_parts_text{
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+.p_pauto_parts_text {
+    margin: 20px 0 20px 0;
+}
+
+.div_auto_parts_text_foto {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.div_auto_parts_foto{
+    margin-right: 35px;
+}
+.div_block_auto_parts_text_foto{
+    margin: 20px 0 0 0;
+}
+.img_dwigok{
+    transform: translateY(-30px);
+}
+.img_red{
+    transform: translateY(30px);
+}
+.p_auto_parts_title{
+    color: red;
+    font-weight: 700;
+}
+span{
+    color: red;
+    opacity: 1;
+}
+/*-------------------------------------*/
+.div_CAR_PARTS_block_flex{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/%D0%BF%D1%80%D0%BE%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B8.avif');
+    background-size: cover;
+}
+.CAR_PARTS_title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.p_CAR_PARTS_text{
+    color: red;
+    font-weight: 600;
+}
+.div_CAR_PARTS_custon{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+.h4_custon{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.p_custon{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    opacity: 0.4;
+}
+.p_learn{
+    font-size: 12px;
+    color: red;
+    font-weight: 300;
+}
+.div_CAR_PARTS_block_flex{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.div_cnopka_lefyt{
+    height: 50px;
+    transform: translateY(210px);
+}
+.div_left{
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    border-radius: 20px;
+    transform: rotate(50deg);
+}
+.div_left::after{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    border-radius: 20px;
+    transform: rotate(-90deg) translate(10px, -10px);
+    position: absolute;
+}
+/*----------------------------------*/
+.bock_bround{
+    height: 100vh;
+    background-image: url('../img/28803.jpg');
+    background-size: cover;
+    color: #fff;
+}
+.block_bround_title{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.p_bround{
+    color: red;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.h1_bround{
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.bround_countries{
+    display: flex;
+    justify-content: space-around;
+}
+.btound_america{
+    width: 200px;
+    height: 50vh;
+    border-right: 2px solid #fff;
+    text-align: end;
+}
+.ul_bround li a {
+    color:#fff;
+    padding: 15px 60px 15px 40px;
+    display: block;
+}
+.ul_bround li a:hover{
+    background-color: red;
+    border-right: 2px solid red;
+}
+.block_foto_text_bround{
+    background-color: #3c3c3c;
+    margin-right: 30px;
+}
+.img_bround{
+    padding: 20px 20px 20px 20px;
+}
+.h4_text_bround{
+    width: 40px;
+    padding: 0 0 20px 20px;
+    font-weight: 800;
+}
+.div_bround_h4_palca{
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    margin-top: 20px;
+}
+.p_text_bround{
+    padding: 0px 0 0 20px;
+    font-size: 15px;
+}
+.a_bround{
+    width:  60px;
+    display: block;
+    padding: 30px 0 20px 20px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+.a_bround:hover{
+    text-decoration: underline;
+}
+.block_foto_bround{
+    display: flex;
+}
+/*-------------------------------*/
+.REQUEST_block{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    color: #fff;
+}
+.REQUEST_block_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+/*    height: 50%;*/
+}
+.REQUEST_h1_title{
+    font-size: 90px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+.REQUEST_p_title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.REQUEST_block_title{
+    margin: 20px 0 20px 30px;
+}
+.REQUEST_p2_title{
+    font-size: 20px;
+}
+.REQUEST_block_button_a{
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #111;
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+
